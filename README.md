@@ -15,7 +15,7 @@ A cozy, multi-page static web application dedicated to premium loose-leaf teas a
 * **CSS3** – Advanced styling, Flexbox layout, and custom animations (`@keyframes`)
 
 ##  Project Structure
-
+```Text
 cozy-corner/
 │
 ├── coffeetea.html      # Main landing page
