@@ -1,0 +1,240 @@
+body {
+    background-color: rgb(71, 102, 59);
+    margin: 0%;
+}
+.topnav {
+    background-color: rgb(234, 198, 150);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    border-bottom: 10px rgb(112, 127, 65) solid;
+    animation-name: topnavani;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;    
+}
+@keyframes topnavani {
+    from {
+        top:-200px
+    }
+    to {
+        top:0px
+    }
+}
+.topnav img {
+    width: 250px;
+    height: 200px;
+}
+.topnav h1 {
+    color: rgb(101, 69, 31);
+    text-shadow: 4px 4px 5px rgb(112, 127, 65);
+    width: 1000px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 623px;
+    margin-left: 30px;
+    font-size: 150px;
+}
+.cshop {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 200px;
+    animation-name: cshopani;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.95,0.04,0.17,0.72);
+    animation-fill-mode: forwards;
+}
+@keyframes cshopani {
+    from {
+        left: -500px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+.cshop img {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 7px solid rgb(31, 69, 41);
+    box-shadow: 10px 10px 5px rgb(31, 69, 41);
+    transition: transform .5s;
+}
+.cshop img:hover {
+    transform: scale(1.1);
+}
+.cshop p {
+    background-color: rgb(234, 198, 150);
+    color: rgb(101, 69, 31);
+    font-size: 50px;
+    width: 1000px;
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(101, 69, 31);
+}
+.cshop a {
+    background-color: rgb(234, 198, 150);
+    color: rgb(101, 69, 31);
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 10px;
+    height: 100px;
+    padding: 15px 25px;
+    margin-top: 120px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(101, 69, 31);
+    transition: transform .2s;
+}
+.cshop a:hover {
+    transform: scale(1.2);
+    color: rgb(31, 69, 41);
+    background-color: rgb(112, 127, 65);
+}
+.tshop {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    animation-name: tshopani;
+    animation-duration: 2.3s;
+    animation-timing-function: cubic-bezier(0.95,0.04,0.17,0.72);
+    animation-fill-mode: forwards;
+}
+@keyframes tshopani {
+    from {
+        left: -500px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+.tshop img {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    border: 7px solid rgb(31, 69, 41);
+    box-shadow: 10px 10px 5px rgb(31, 69, 41);
+    transition: transform .5s;
+}
+.tshop img:hover {
+    transform: scale(1.1);
+}
+.tshop p {
+    background-color: rgb(234, 198, 150);
+    color: rgb(101, 69, 31);
+    font-size: 46px;
+    width: 1000px;
+    padding: 20px;
+    margin-left: 90px;
+    margin-right: 50px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(101, 69, 31);
+
+}
+.tshop a {
+    background-color: rgb(234, 198, 150);
+    color: rgb(101, 69, 31);
+    font-size: 30px;
+    line-height: 10px;
+    text-decoration: none;
+    height: 100px;
+    padding: 15px 25px;
+    margin-top: 110px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(101, 69, 31);
+    transition: transform .2s;
+}
+.tshop a:hover {
+    transform: scale(1.2);
+    color: rgb(31, 69, 41);
+    background-color: rgb(112, 127, 65);
+}
+.aboutus {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    animation-name: aboutusani;
+    animation-duration: 2.6s;
+    animation-timing-function: cubic-bezier(0.95,0.04,0.17,0.72);
+    animation-fill-mode: forwards;
+}
+@keyframes aboutusani {
+    from {
+        left: -500px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+.aboutus img {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    border: 7px solid rgb(31, 69, 41);
+    box-shadow: 10px 10px 5px rgb(31, 69, 41);
+    transition: transform .5s;
+}
+.aboutus img:hover {
+    transform: scale(1.1);
+}
+.aboutus p {
+    background-color: rgb(234, 198, 150);
+    color: rgb(101, 69, 31);
+    font-size: 46px;
+    width: 1000px;
+    padding: 20px;
+    margin-left: 90px;
+    margin-right: 50px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(101, 69, 31);
+}
+.aboutus a {
+    background-color: rgb(234, 198, 150);
+    color: rgb(101, 69, 31);
+    font-size: 25px;
+    text-decoration: none;
+    height: 100px;
+    line-height: 10px;
+    padding: 15px 25px;
+    margin-top: 120px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(101, 69, 31);
+    transition: transform .2s;
+}
+.aboutus a:hover {
+    transform: scale(1.2);
+    color: rgb(31, 69, 41);
+    background-color: rgb(112, 127, 65);
+}
+.footer {
+    background-color: rgb(234, 198, 150);
+    border-top: 7px solid rgb(112, 127, 65);
+    margin-top: 50px;
+    height: 100px;
+}
+.footer p {
+    color: rgb(101, 69, 31);
+    font-size: 20px;
+    text-align: center;
+}

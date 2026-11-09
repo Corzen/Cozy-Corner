@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(234, 198, 150);
+    margin: 0%;
+}
+.topnav {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Coffeebackg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 7px solid rgb(50, 32, 11);
+    animation-name: topnavani;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes topnavani {
+    from {
+        top:-400px;
+    }
+    to {
+        top:0px;
+    }
+}
+.text {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.link {
+    display: flex;
+    flex-direction: row;
+    margin-inline: 600px;
+    margin-top: 20px;
+    animation-name: contentani;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.95,0.04,0.17,0.72);
+    animation-fill-mode: forwards;
+}
+.link a {
+    background-color: rgb(101, 69, 31);
+    font-size: 20px;
+    color: rgb(50, 32, 11);
+    padding: 10px 15px;
+    margin-right: 150px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(50, 32, 11);
+    text-decoration: none;
+    transition: transform .2s;
+}
+.link a:hover {
+    transform: scale(1.2);
+    color: rgb(31, 69, 41);
+    background-color: rgb(112, 127, 65);
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-inline: 50px;
+    animation-name: contentani;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.95,0.04,0.17,0.72);
+    animation-fill-mode: forwards;
+}
+@keyframes contentani {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.content img {
+    margin-right: 50px;
+    width: 550px;
+    height: 550px;
+    border: 7px solid rgb(50, 32, 11);
+    box-shadow: 10px 10px 5px rgb(50, 32, 11);
+    transition: transform .5s;
+}
+.content img:hover {
+    transform: scale(1.1);
+}
+.content p {
+    background-color: rgb(101, 69, 31);
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(50, 32, 11);;
+}
+.reviewbox {
+    margin-left: 600px;
+    margin-top: 50px;
+    animation-name: contentani;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.95,0.04,0.17,0.72);
+    animation-fill-mode: forwards;
+}
+.comment {
+    font-size: 20px;
+    color: white;
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+    background-color: rgb(101, 69, 31);
+}
+.footer {
+    position: absolute;
+    background-color: rgb(101, 69, 31);
+    border-top: 7px solid rgb(50, 32, 11);
+    margin-top: 150px;
+    padding-inline: 408px;
+    height: 100px;
+}
+.footer p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
