@@ -18,11 +18,11 @@ A cozy, multi-page static web application dedicated to premium loose-leaf teas a
 ```Text
 cozy-corner/
 │
-├── coffeetea.html      # Main landing page
-├── shopc.html          # Coffee product catalog
-├── shopt.html          # Tea product catalog
-├── aboutus.html        # About Us page
-├── coffeestyle.css     # Stylesheet for home page
-├── shopc.css           # Stylesheet for coffee page
-├── shopt.css           # Stylesheet for tea page
-└── *.jpg / *.png       # Product and logo assets
+├── coffeetea.html      
+├── shopc.html          
+├── shopt.html          
+├── aboutus.html        
+├── coffeestyle.css     
+├── shopc.css           
+├── shopt.css           
+└── *.jpg / *.png       
