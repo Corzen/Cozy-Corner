@@ -1,0 +1,352 @@
+body {
+    background-color: rgb(71, 102, 59);
+    margin: 0%;
+}
+.topnav {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: rgb(85, 127, 66);
+    border-bottom: 15px solid rgb(25, 57, 33);
+    animation-name: topnavani;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes topnavani {
+    from {
+        top:-200px;
+    }
+    to {
+        top:0px;
+    }
+}
+.topnav h1 {
+    font-size: 55px;
+    color: rgb(25, 57, 33);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.toplink {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-right: 267px;
+    margin-bottom: 10px;
+}
+.toplink a {
+    font-size: 20px;
+    color: rgb(25, 57, 33);
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-left: 170px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 40px;
+    text-decoration: none;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+    transition: transform .2s;
+}
+.toplink a:hover {
+    transform: scale(1.2);
+    color: rgb(50, 32, 11);
+    background-color: rgb(101, 69, 31);
+}
+.shoprow1 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 250px;
+    animation-name: shopani;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.95,0.04,0.17,0.72);
+    animation-fill-mode: forwards;
+}
+@keyframes shopani {
+    from {
+        left: 500px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+.shoprow1 img {
+    width: 550px;
+    height: 550px;
+    border: 7px solid rgb(25, 57, 33);
+    margin-left: 100px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+    transition: transform .5s;
+}
+.shoprow1 img:hover {
+    transform: scale(1.1);
+}
+.shoprow1 h1 {
+    background-color: rgb(108, 151, 91);
+    color: rgb(25, 57, 33);
+    font-size: 50px;
+    padding: 20px;
+    width: 340px;
+    margin-left: 350px;
+    margin-right: 50px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+}
+.shoprow1 p {
+    background-color: rgb(108, 151, 91);
+    color: rgb(25, 57, 33);
+    font-size: 45px;
+    width: 1000px;
+    padding: 20px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+}
+.shoprow2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 900px;
+    animation-name: shopani2;
+    animation-duration: 1.8s;
+    animation-timing-function: cubic-bezier(0.95,0.04,0.17,0.72);
+    animation-fill-mode: forwards;
+}
+@keyframes shopani2 {
+    from {
+        left: -500px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+.shoprow2 img {
+    width: 550px;
+    height: 550px;
+    border: 7px solid rgb(25, 57, 33);
+    margin-left: 100px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+    transition: transform .5s;
+}
+.shoprow2 img:hover {
+    transform: scale(1.1);
+}
+.shoprow2 h1 {
+    background-color: rgb(108, 151, 91);
+    color: rgb(25, 57, 33);
+    font-size: 50px;
+    padding: 20px;
+    width: 340px;
+    margin-left: 350px;
+    margin-right: 50px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+}
+.shoprow2 p {
+    background-color: rgb(108, 151, 91);
+    color: rgb(25, 57, 33);
+    font-size: 40px;
+    width: 1000px;
+    padding: 20px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+}
+.shoprow3 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1500px;
+    animation-name: shopani ;
+    animation-duration: 2.1s;
+    animation-timing-function: cubic-bezier(0.95,0.04,0.17,0.72);
+    animation-fill-mode: forwards;
+}
+.shoprow3 img {
+    width: 550px;
+    height: 550px;
+    border: 7px solid rgb(25, 57, 33);
+    margin-left: 100px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+    transition: transform .5s;
+}
+.shoprow3 img:hover {
+    transform: scale(1.1);
+}
+.shoprow3 h1 {
+    background-color: rgb(108, 151, 91);
+    color: rgb(25, 57, 33);
+    font-size: 50px;
+    padding: 20px;
+    width: 340px;
+    margin-left: 350px;
+    margin-right: 50px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+}
+.shoprow3 p {
+    background-color: rgb(108, 151, 91);
+    color: rgb(25, 57, 33);
+    font-size: 45px;
+    width: 1000px;
+    padding: 20px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+}
+.shoprow4 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2100px;
+    animation-name: shopani2;
+    animation-duration: 2.4s;
+    animation-timing-function: cubic-bezier(0.95,0.04,0.17,0.72);
+    animation-fill-mode: forwards;
+}
+.shoprow4 img {
+    width: 550px;
+    height: 450px;
+    border: 7px solid rgb(25, 57, 33);
+    margin-left: 100px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+    transition: transform .5s;
+}
+.shoprow4 img:hover {
+    transform: scale(1.1);
+}
+.shoprow4 h1 {
+    background-color: rgb(108, 151, 91);
+    color: rgb(25, 57, 33);
+    font-size: 50px;
+    padding: 20px;
+    width: 340px;
+    margin-left: 350px;
+    margin-right: 50px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+}
+.shoprow4 p {
+    background-color: rgb(108, 151, 91);
+    color: rgb(25, 57, 33);
+    font-size: 45px;
+    width: 1000px;
+    padding: 20px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+}
+.shoprow5 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2600px;
+    animation-name: shopani;
+    animation-duration: 2.7s;
+    animation-timing-function: cubic-bezier(0.95,0.04,0.17,0.72);
+    animation-fill-mode: forwards;
+}
+.shoprow5 img {
+    width: 550px;
+    height: 550px;
+    border: 7px solid rgb(25, 57, 33);
+    margin-left: 100px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+    transition: transform .5s;
+}
+.shoprow5 img:hover {
+    transform: scale(1.1);
+}
+.shoprow5 h1 {
+    background-color: rgb(108, 151, 91);
+    color: rgb(25, 57, 33);
+    font-size: 50px;
+    padding: 20px;
+    width: 340px;
+    margin-left: 350px;
+    margin-right: 50px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+}
+.shoprow5 p {
+    background-color: rgb(108, 151, 91);
+    color: rgb(25, 57, 33);
+    font-size: 45px;
+    width: 1000px;
+    padding: 20px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+}
+.shoprow6 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3200px;
+    animation-name: shopani2;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.95,0.04,0.17,0.72);
+    animation-fill-mode: forwards;
+}
+.shoprow6 img {
+    width: 550px;
+    height: 550px;
+    border: 7px solid rgb(25, 57, 33);
+    margin-left: 100px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+    transition: transform .5s;
+}
+.shoprow6 img:hover {
+    transform: scale(1.1);
+}
+.shoprow6 h1 {
+    background-color: rgb(108, 151, 91);
+    color: rgb(25, 57, 33);
+    font-size: 50px;
+    padding: 20px;
+    width: 340px;
+    margin-left: 350px;
+    margin-right: 50px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+}
+.shoprow6 p {
+    background-color: rgb(108, 151, 91);
+    color: rgb(25, 57, 33);
+    font-size: 45px;
+    width: 1000px;
+    padding: 20px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(25, 57, 33);
+}
+.footer {
+    position: absolute;
+    background-color: rgb(85, 127, 66);
+    border-top: 7px solid rgb(25, 57, 33);
+    margin-top: 3850px;
+    padding-inline: 408px;
+    height: 100px;
+}
+.footer p {
+    color: rgb(25, 57, 33);
+    font-size: 20px;
+    text-align: center;
+}
