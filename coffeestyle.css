@@ -6,20 +6,18 @@ body {
     background-color: rgb(71, 102, 59);
     margin: 0;
     overflow-x: hidden;
+    font-family: Arial, sans-serif;
 }
 
 .topnav {
     background-color: rgb(234, 198, 150);
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: relative;
     width: 100%;
     height: 140px;
     display: flex;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 30px;
     border-bottom: 10px solid rgb(112, 127, 65);
-    z-index: 100;
     animation-name: topnavani;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
@@ -35,21 +33,25 @@ body {
 }
 
 .topnav img {
-    width: 130px;
+    width: 120px;
     height: 110px;
     object-fit: contain;
 }
 
 .topnav h1 {
     color: rgb(101, 69, 31);
-    text-shadow: 4px 4px 5px rgb(112, 127, 65);
-    margin: 0 0 0 25px;
-    font-size: clamp(40px, 6vw, 90px);
+    text-shadow: 3px 3px 4px rgb(112, 127, 65);
+    margin: 0 0 0 20px;
+    font-size: clamp(35px, 5vw, 75px);
 }
 
 main {
-    margin-top: 170px;
-    padding: 0 40px;
+    max-width: 1300px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .cshop, .tshop, .aboutus {
@@ -57,9 +59,9 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
+    background-color: transparent;
     position: relative;
-    margin-bottom: 50px;
     animation-timing-function: cubic-bezier(0.95, 0.04, 0.17, 0.72);
     animation-fill-mode: forwards;
 }
@@ -81,7 +83,7 @@ main {
 
 @keyframes slidein {
     from {
-        left: -500px;
+        left: -300px;
         opacity: 0;
     }
     to {
@@ -91,57 +93,63 @@ main {
 }
 
 .cshop img, .tshop img, .aboutus img {
-    width: 240px;
-    height: 240px;
+    width: 220px;
+    height: 220px;
     flex-shrink: 0;
     object-fit: cover;
-    border: 7px solid rgb(31, 69, 41);
-    box-shadow: 10px 10px 5px rgb(31, 69, 41);
+    border: 6px solid rgb(31, 69, 41);
+    box-shadow: 8px 8px 5px rgb(31, 69, 41);
     transition: transform 0.5s;
 }
 
 .cshop img:hover, .tshop img:hover, .aboutus img:hover {
-    transform: scale(1.08);
+    transform: scale(1.05);
 }
 
 .cshop div {
     flex: 1;
+    display: flex;
 }
 
 .cshop p, .tshop p, .aboutus p {
     background-color: rgb(234, 198, 150);
     color: rgb(101, 69, 31);
-    font-size: clamp(20px, 2.2vw, 32px);
+    font-size: clamp(16px, 1.8vw, 24px);
     flex: 1;
     margin: 0;
-    padding: 25px 35px;
-    border-radius: 35px;
-    box-shadow: 10px 10px 5px rgb(101, 69, 31);
+    padding: 20px 25px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 5px rgb(101, 69, 31);
 }
 
 .cshop a, .tshop a, .aboutus a {
     background-color: rgb(234, 198, 150);
     color: rgb(101, 69, 31);
     text-decoration: none;
-    min-width: 220px;
-    height: 90px;
+    min-width: 170px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 30px;
-    border-radius: 35px;
-    box-shadow: 10px 10px 5px rgb(101, 69, 31);
+    padding: 0 15px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 5px rgb(101, 69, 31);
     transition: transform 0.2s, background-color 0.2s, color 0.2s;
     flex-shrink: 0;
+    text-align: center;
 }
 
 .cshop a h1, .tshop a h1, .aboutus a h1 {
-    font-size: 32px;
+    font-size: 22px;
     margin: 0;
+    padding: 0;
+    width: auto;
+    color: rgb(101, 69, 31);
+    text-shadow: none;
 }
 
 .cshop a:hover, .tshop a:hover, .aboutus a:hover {
-    transform: scale(1.1);
+    transform: scale(1.08);
     color: rgb(31, 69, 41);
     background-color: rgb(112, 127, 65);
 }
@@ -149,13 +157,13 @@ main {
 .footer {
     background-color: rgb(234, 198, 150);
     border-top: 7px solid rgb(112, 127, 65);
-    margin-top: 50px;
+    margin-top: 60px;
     padding: 20px;
     text-align: center;
 }
 
 .footer p {
     color: rgb(101, 69, 31);
-    font-size: 18px;
+    font-size: 16px;
     margin: 5px 0;
 }
